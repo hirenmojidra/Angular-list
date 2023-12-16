@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    width: 470px;
+    height: 358px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.container .containerhead{
+    padding: 21px;
+    text-align: center;
+    background-color: #f1f1f1!important;
+}
+
+.container .content{
+    height: 180px;
+    background-color: #fff!important;
+    padding-top: 10px;
+    font-size: 30px;
+    overflow-y: auto;
+}
+
+.container .content ul{
+    list-style-type: none;
+}
+
+.container .content ul li{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+
+.container .content ul li span{
+    position: absolute;
+    left: 418px;
+    cursor: pointer;
+}
+
+.container .containerfooter{
+    height: 90px;
+    background-color: #f1f1f1;
+}
+
+.container .containerfooter input{
+    margin: 19px;
+    padding: 15px;
+    width: 276px;
+    margin-right: -2px;
+    height: 14px;
+}
+.container .containerfooter button{
+    width: 68px;
+    height: 44px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color:aliceblue;
+}
